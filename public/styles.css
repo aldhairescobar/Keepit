@@ -23,7 +23,6 @@ body {
 
 header {
   background-color: #f7f7f7;
-
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -33,13 +32,11 @@ header {
 }
 
 header h1 {
-  font-family: "Architects Daughter", cursive;
+  font-family: "Comic Sans MS", cursive;
+  font-weight: 200;
   font-size: 2rem;
   background: #feefc3;
   color: #333;
-  font-family: "McLaren", cursive;
-  font-weight: 200;
-
   transform: rotate(2deg);
   padding: 0.2rem 1.2rem;
   border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
@@ -91,13 +88,11 @@ form.create-note button {
 .note {
   display: flex;
   flex-direction: column;
-
   overflow: hidden;
   background: #feefc3;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
-
   width: 100%;
   margin: 16px 0;
 }
