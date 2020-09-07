@@ -51,7 +51,7 @@ header h1 {
   grid-column: 1 / -1;
 }
 
-form {
+form.create-note {
   position: relative;
   width: 40%;
   margin: 0 auto;
@@ -62,8 +62,8 @@ form {
   box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
 
-form input,
-form textarea {
+form.create-note input,
+form.create-note textarea {
   width: 100%;
   border: none;
   padding: 4px;
@@ -73,7 +73,7 @@ form textarea {
   resize: none;
 }
 
-form button {
+form.create-note button {
   position: absolute;
   right: 18px;
   bottom: -18px;
@@ -89,6 +89,10 @@ form button {
 }
 
 .note {
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
   background: #feefc3;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
@@ -106,15 +110,11 @@ form button {
 .note p {
   font-size: 1.1em;
   margin-bottom: 10px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
 }
 
 .note button {
-  position: relative;
-  float: right;
-  margin-right: 10px;
   color: #f5ba13;
+  align-self: flex-end;
   border: none;
   width: 36px;
   height: 36px;

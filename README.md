@@ -1,3 +1,27 @@
+# Keepit
+
+A Google Keep Clone built with ReactJs
+
+## What I Learned
+
+- React Hooks (useState)
+- Conditional Rendering with ReactJs
+- How to use Material-UI
+- How to create a component tree
+- How to pass "props" between components (uncluding functions)
+- How to use .map and .filter methods in ReactJs
+
+## Demo
+
+(link)
+<img width="602" alt="keepit" src="https://user-images.githubusercontent.com/63808163/92411952-9bdd5a80-f10f-11ea-9452-74d167a9691e.PNG">
+
+## Built With
+
+- ReactJs
+- Material UI
+- CSS
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### React README
