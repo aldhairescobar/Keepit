@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="container">
       <Header />
       <CreateArea onAdd={addNote} />
       {notes.map((note, i) => {

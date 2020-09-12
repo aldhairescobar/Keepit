@@ -27,7 +27,7 @@ function CreateArea(props) {
 
   return (
     <form
-      className="create-note"
+      className="create-note-form"
       onSubmit={(e) => {
         props.onAdd(note);
         setNote({ title: "", content: "" });
@@ -36,14 +36,17 @@ function CreateArea(props) {
     >
       {isExpanded && (
         <input
+          className="input-title"
           onChange={handleChange}
           name="title"
           placeholder="Title"
           type="text"
           value={note.title}
+          required
         />
       )}
       <textarea
+        className="input-content"
         onChange={handleChange}
         onClick={handleClick}
         name="content"
