@@ -9,7 +9,7 @@ A Google Keep Clone built with ReactJs
 - How to use Material-UI
 - How to create a component tree
 - How to pass "props" between components (uncluding functions)
-- How to use .map and .filter methods in ReactJs
+- How to use .map and .filter methods in ReactJS
 
 ## Demo
 
